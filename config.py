@@ -1,6 +1,6 @@
 
 class Config:
 
-    API_ID = 2481056
-    API_HASH = "191f28cb82d01271c50b15e1e31312f0"
-    BOT_TOKEN = "2106627965:AAHPEEP6BRd31inGseCqe7Kd3eEd2mn7F4k"
+    API_ID = 6
+    API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+    BOT_TOKEN = "6560962385:AAFbWuz3MJRv83X_IRxu9jlB6q_Tt6gjlfI"
