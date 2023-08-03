@@ -134,7 +134,7 @@ async def del_callback(_, callback: CallbackQuery):
   await callback.message.edit("Ok")   
     
 
-@app.on_callback_query(filters.regex("^d") & filters.user(OWNER_ID))
+@app.on_callback_query(filters.regex("^d"))
 async def download_video(client, callback : CallbackQuery):
     url = callback.data.split("_",1)[1]
     msg = await callback.message.edit("Downloading...")
